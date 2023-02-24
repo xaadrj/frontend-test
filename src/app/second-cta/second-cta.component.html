@@ -1,0 +1,192 @@
+<style>
+    button {
+        border: none;
+        background: none;
+    }
+
+    h1,
+    h2,
+    h4,
+    h4,
+    h5,
+    h6,
+    p {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #second-cta {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background: #08083D;
+        text-align: center;
+        padding: 32px 17px;
+    }
+
+    .second-cta-heading {
+        font-family: 'Gilroy', bolder, sans-serif;
+        font-size: 30px;
+        line-height: 40px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    .second-cta-p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22.4px;
+        margin-top: 11px;
+        color: #FFFFFF;
+        opacity: 1;
+        text-align: center;
+    }
+
+    .places-div {
+        display: none;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap:56px;
+        margin-top: 65px;
+    }
+    .places-main {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .places {
+        width: 100%;
+    }
+    .places-p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: medium;
+        font-size: 24px;
+        line-height: 33.6px;
+        color: #FFFFFF;
+    }
+
+    .d-show {
+    display: none;
+}
+
+.s-show {
+    display: block;
+}
+
+    @media (min-width: 1536px) {
+
+    #second-cta {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background: #08083D;
+        text-align: center;
+        padding: 65px 300px;
+    }
+
+    .second-cta-heading {
+        font-family: 'Gilroy', bolder, sans-serif;
+        font-size: 50px;
+        line-height: 65px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    .second-cta-p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 33.6px;
+        margin-top: 33px;
+        color: #FFFFFF;
+        opacity: 1;
+        text-align: center;
+    }
+
+    .places-div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap:56px;
+        margin-top: 65px;
+    }
+    .places-main {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 307px;
+        transition:all 1s ease;
+    }
+
+
+    .places-main:hover {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        padding : 0px 10px;
+    }
+    .places-p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: medium;
+        font-size: 24px;
+        line-height: 33.6px;
+        color: #FFFFFF;
+    }
+    .place-img {
+        width: 100%;
+    }
+
+.d-show {
+    display: flex;
+}
+
+.s-show {
+    display: none;
+}
+
+    }
+</style>
+
+<section id="second-cta">
+    <h1 class="second-cta-heading">
+        Lorem ipsum dolor sit amet adipiscing elit. Donec odio. Quisque volutpat mattis
+    </h1>
+    <p class="second-cta-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat
+        mattis eros. Nullam malesuada erat ut. Suspendisse urna nibh, viverra non, semper suscipit</p>
+        <div class="places-div">
+            <button class="s-show"></button>
+            <div class="places-main  d-show">
+            <div class="places">
+                
+                <img class="place-img" src="assets/images/newplace.png" alt="">
+               
+            </div>
+            <p class="places-p">Amazon Mall</p>
+        </div>
+        <div class="places-main">
+            <div class="places">
+                <img class="place-img" src="assets/images/centrarus.png" alt="">
+            </div>
+            <p class="places-p">Centaurus Mall</p>
+        </div>
+        <button class="s-show"></button>
+        <div class="places-main d-show">
+            <div class="places">
+                <img class="place-img" src="assets/images/gigimall.png" alt="">
+               
+            </div>
+            <p class="places-p">Giga Mall</p>
+        </div>
+        </div>
+</section>
