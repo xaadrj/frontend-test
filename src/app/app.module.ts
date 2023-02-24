@@ -11,6 +11,9 @@ import { SecondCtaComponent } from './second-cta/second-cta.component';
 
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { ThirdCtaComponent } from './third-cta/third-cta.component';
+import { FourthCtaComponent } from './fourth-cta/fourth-cta.component';
+import { FifthCtaComponent } from './fifth-cta/fifth-cta.component';
+import { SixthCtaComponent } from './sixth-cta/sixth-cta.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { ThirdCtaComponent } from './third-cta/third-cta.component';
     HeroComponent,
     FirstCtaComponent,
     SecondCtaComponent,
-    ThirdCtaComponent  ],
+    ThirdCtaComponent,
+    FourthCtaComponent,
+    FifthCtaComponent,
+    SixthCtaComponent  ],
   imports: [
     BrowserModule,
     AppRoutingModule,

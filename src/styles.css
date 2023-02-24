@@ -1,18 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+button {
+  border: none;
+  background: none;
+}
+
+h1,
+h2,
+h4,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/* Carousel Start  */
 .slider-main {
   display: block;
 }
+
 .slick-slider {
-    width: 100%;
-    padding: 0px 79px;
-    background: #08083D;
-  }
-  
-.slider-main .slick-prev, 
+  width: 100%;
+  padding: 0px 79px;
+  background: #08083D;
+}
+
+.slider-main .slick-prev,
 .slider-main .slick-next {
-    height: 45px;
-    width: 40px;
-    z-index: 100;
+  height: 45px;
+  width: 40px;
+  z-index: 100;
 }
 
 .slide {
@@ -22,35 +42,37 @@
   justify-content: center;
   text-align: center;
   font-family: 'Roboto', medium, sans-serif;
-  color : #ffff;
+  color: #ffff;
   font-size: 18px;
 }
 
-.slick-prev, .slick-next {
-  top : 40% !important;
+.slick-prev,
+.slick-next {
+  top: 40% !important;
 }
 
 .slick-prev {
-    left : 25px !important
+  left: 25px !important
+}
+
+.slick-next {
+  right: 34px !important
+}
+
+.slick-prev::before {
+  display: none;
+}
+
+.slick-next:before {
+  display: none;
+}
+
+
+@media (min-width: 1536px) {
+
+  .slider-main {
+    display: none;
   }
+}
 
-  .slick-next {
-    right : 34px !important
-  }
-
-  .slick-prev::before {
-   display: none;
-  }
-  .slick-next:before {
-   display: none;
-  }
-
-
-  
-
-  @media (min-width: 1536px) {
-
-    .slider-main {
-      display: none;
-    }
-   }
+/* Carousel End  */
