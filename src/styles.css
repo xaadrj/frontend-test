@@ -67,6 +67,11 @@ p {
   display: none;
 }
 
+.slick-paragraph {
+  margin-top: 13px;
+  margin-bottom: 30px;
+}
+
 
 @media (min-width: 1536px) {
 
