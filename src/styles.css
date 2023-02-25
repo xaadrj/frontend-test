@@ -17,6 +17,11 @@ p {
 
 
 /* Carousel Start  */
+
+#slider-section {
+  margin-top: -5px;
+}
+
 .slider-main {
   display: block;
 }
@@ -72,7 +77,25 @@ p {
 }
 
 
-@media (min-width: 1536px) {
+@media (min-width: 800px) {
+  #slider-section {
+    background: #08083D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5px;
+  }
+
+  .slider-main {
+    position: relative;
+    width: 700px;
+  }
+}
+
+@media (min-width: 1240px) {
+  #slider-section {
+    display: none;
+  }
 
   .slider-main {
     display: none;
