@@ -79,10 +79,37 @@
         font-weight: bolder;
         font-family: 'Gilroy', sans-serif;
         margin-top: 15px;
-        opacity: 1;
-        color: #FFFFFF;
-        background: #6184D8;
-        padding: 5px;
+
+    }
+
+    @keyframes change-text {
+        30% {
+            content: "Lorem ipsum";
+            background: #6184D8;
+            color: #FFFFFF;
+        }
+
+        50% {
+            content: "Lorem";
+            background: #6184D8;
+            color: #FFFFFF;
+        }
+
+        100% {
+            content: "Lorem ipsum";
+            background: #E86F3A;
+            color: #FFFFFF;
+        }
+    }
+
+    .highlight-word::before {
+        content: "Lorem Ipsum Sit";
+        font-weight: bolder;
+        font-family: 'Gilroy', bolder sans-serif;
+        padding: 5px 10px;
+        color: #08083D;
+        background: #ffffff;
+        animation: change-text 6s ease-out;
     }
 
     .hero-content .hero-p {
@@ -105,10 +132,13 @@
         background: #23CE6B;
         box-shadow: 0px 8px 8px #23CE6B80;
         border-radius: 100px;
+        position: relative;
+  top: 0;
+  transition: top 0.3s ease-out;
     }
 
     .hero-button:hover {
-        box-shadow: 0px 12px 12px #23CE6B80;
+        top: -10px;
     }
 
     .hero-button .text {
@@ -205,9 +235,36 @@
             font-family: 'Gilroy', sans-serif;
             margin-top: 15px;
             opacity: 1;
-            color: #FFFFFF;
-            background: #6184D8;
-            padding: 5px;
+        }
+
+        @keyframes change-text {
+            30% {
+                content: "Lorem ipsum";
+                background: #6184D8;
+                color: #FFFFFF;
+            }
+
+            50% {
+                content: "Lorem";
+                background: #6184D8;
+                color: #FFFFFF;
+            }
+
+            100% {
+                content: "Lorem ipsum";
+                background: #E86F3A;
+                color: #FFFFFF;
+            }
+        }
+
+        .highlight-word::before {
+            content: "Lorem Ipsum Sit";
+        font-weight: bolder;
+        font-family: 'Gilroy', bolder sans-serif;
+        padding: 5px 10px;
+        color: #08083D;
+        background: #ffffff;
+        animation: change-text 6s ease-out;
         }
 
         .hero-content .hero-p {
@@ -230,10 +287,13 @@
             background: #23CE6B;
             box-shadow: 0px 8px 8px #23CE6B80;
             border-radius: 100px;
+            position: relative;
+  top: 0;
+  transition: top 0.3s ease-out;
         }
 
         .hero-button:hover {
-            box-shadow: 0px 12px 12px #23CE6B80;
+            top: -10px;
         }
 
         .hero-button .text {
@@ -369,10 +429,36 @@
             font-weight: bolder;
             font-family: 'Gilroy', sans-serif;
             margin-top: 17px;
-            opacity: 1;
-            color: #FFFFFF;
-            background: #6184D8;
-            padding: 5px;
+        }
+
+        @keyframes change-text {
+            30% {
+                content: "Lorem ipsum";
+                background: #6184D8;
+                color: #FFFFFF;
+            }
+
+            50% {
+                content: "Lorem";
+                background: #6184D8;
+                color: #FFFFFF;
+            }
+
+            100% {
+                content: "Lorem ipsum";
+                background: #E86F3A;
+                color: #FFFFFF;
+            }
+        }
+
+        .highlight-word::before {
+            content: "Lorem Ipsum Sit";
+        font-weight: bolder;
+        font-family: 'Gilroy', bolder sans-serif;
+        padding: 5px 10px;
+        color: #08083D;
+        background: #ffffff;
+        animation: change-text 6s ease-out;
         }
 
         .hero-content .hero-p {
@@ -395,6 +481,9 @@
             background: #23CE6B;
             box-shadow: 0px 8px 8px #23CE6B80;
             border-radius: 100px;
+            position: relative;
+  top: 0;
+  transition: top 0.3s ease-out;
         }
 
         .hero-btn-icon img {
@@ -402,7 +491,7 @@
         }
 
         .hero-button:hover {
-            box-shadow: 0px 12px 12px #23CE6B80;
+            top: -10px;
         }
 
         .hero-button .text {
@@ -534,10 +623,37 @@
             font-weight: bolder;
             font-family: 'Gilroy', sans-serif;
             margin-top: 17px;
-            opacity: 1;
-            color: #FFFFFF;
-            background: #6184D8;
-            padding: 5px;
+
+        }
+
+        @keyframes change-text {
+            30% {
+                content: "Lorem ipsum";
+                background: #6184D8;
+                color: #FFFFFF;
+            }
+
+            50% {
+                content: "Lorem";
+                background: #6184D8;
+                color: #FFFFFF;
+            }
+
+            100% {
+                content: "Lorem ipsum";
+                background: #E86F3A;
+                color: #FFFFFF;
+            }
+        }
+
+        .highlight-word::before {
+            content: "Lorem Ipsum Sit";
+        font-weight: bolder;
+        font-family: 'Gilroy', bolder sans-serif;
+        padding: 5px 10px;
+        color: #08083D;
+        background: #ffffff;
+        animation: change-text 6s ease-out;
         }
 
         .hero-content .hero-p {
@@ -560,6 +676,9 @@
             background: #23CE6B;
             box-shadow: 0px 8px 8px #23CE6B80;
             border-radius: 100px;
+            position: relative;
+  top: 0;
+  transition: top 0.3s ease-out;
         }
 
         .hero-btn-icon img {
@@ -567,7 +686,7 @@
         }
 
         .hero-button:hover {
-            box-shadow: 0px 12px 12px #23CE6B80;
+            top: -10px;
         }
 
         .hero-button .text {
@@ -618,7 +737,7 @@
                 <h1 class="hero-heading">
                     Lorem ipsum dolor sit amet consectetur
                 </h1>
-                <span class="highlight-word">Lorem ipsum</span>
+                <span class="highlight-word"></span>
                 <p class="hero-p">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
                 </p>
