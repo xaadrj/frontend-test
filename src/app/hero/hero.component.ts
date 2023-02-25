@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./hero.component.css']
 })
 export class HeroComponent {
+  toggle: boolean = false;
 
+  toggleNav(selectNum: boolean){
+    this.toggle = selectNum;
+  }
 }

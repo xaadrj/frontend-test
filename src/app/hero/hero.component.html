@@ -44,6 +44,76 @@
         display: none;
     }
 
+    .hideNav {
+
+        transform: translateX(-1000px);
+    }
+
+    .showNav {
+
+        transform: translateX(0px);
+    }
+
+    .show-icon {
+        display: block;
+    }
+
+    .hide-icon {
+        display: none;
+    }
+
+    .show-cross-icon {
+        display: block;
+
+    }
+
+    .hide-cross-icon {
+        display: none;
+
+    }
+
+
+    .menu-option {
+        display: flex;
+        position: fixed;
+        top: 10px;
+        inset: 0;
+        padding: 20px;
+        top: 80px;
+        z-index: 9999999;
+        background-color: white;
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        transition: transform 0.8s ease-in-out;
+    }
+
+    .menu-button {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Gilroy', bolder sans-serif;
+        font-weight: bolder;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    .contact-btn {
+        padding: 12px 42px;
+        background: #23CE6B;
+        border-radius: 5px;
+        font-family: 'Gilroy', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    .navbar .right-side .contact-btn:hover {
+        background: #29b162;
+    }
+
 
     .hero {
         background-image: none;
@@ -133,8 +203,8 @@
         box-shadow: 0px 8px 8px #23CE6B80;
         border-radius: 100px;
         position: relative;
-  top: 0;
-  transition: top 0.3s ease-out;
+        top: 0;
+        transition: top 0.3s ease-out;
     }
 
     .hero-button:hover {
@@ -178,13 +248,17 @@
 
         .navbar {
             display: flex;
-            justify-content: start;
+            justify-content: space-between;
             padding: 30px;
             padding-bottom: 0px;
             align-items: center;
             gap: 90px;
             width: auto;
 
+        }
+
+        .navbar .menu {
+            display: none;
         }
 
         .navbar .logo {
@@ -196,8 +270,60 @@
         }
 
         .navbar .right-side {
-            display: none;
+            display: flex;
+            align-items: center;
+            gap: 36.62px;
         }
+
+        .navbar .right-side div {
+            display: flex;
+            align-items: center;
+            gap: 0px;
+        }
+
+        .navbar .right-side div button {
+            font-size: 16px;
+            font-weight: lighter;
+            font-family: 'Gilroy', sans-serif;
+            opacity: 1;
+            color: #FFFFFF;
+        }
+
+        .navbar .right-side .contact-btn {
+            padding: 12px 42px;
+            background: #23CE6B;
+            border-radius: 5px;
+            font-family: 'Gilroy', sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            color: #FFFFFF;
+            opacity: 1;
+        }
+
+        .navbar .right-side .contact-btn:hover {
+            background: #29b162;
+        }
+
+
+
+
+        .menu-option {
+            display: none;
+            position: fixed;
+            top: 10px;
+            inset: 0;
+            padding: 20px;
+            top: 80px;
+            z-index: 9999999;
+            background-color: white;
+            justify-content: center;
+            flex-direction: column;
+            gap: 40px;
+            align-items: center;
+            transition: transform 0.8s ease-in-out;
+        }
+
+
 
 
         .hero {
@@ -259,12 +385,12 @@
 
         .highlight-word::before {
             content: "Lorem Ipsum Sit";
-        font-weight: bolder;
-        font-family: 'Gilroy', bolder sans-serif;
-        padding: 5px 10px;
-        color: #08083D;
-        background: #ffffff;
-        animation: change-text 6s ease-out;
+            font-weight: bolder;
+            font-family: 'Gilroy', bolder sans-serif;
+            padding: 5px 10px;
+            color: #08083D;
+            background: #ffffff;
+            animation: change-text 6s ease-out;
         }
 
         .hero-content .hero-p {
@@ -288,8 +414,8 @@
             box-shadow: 0px 8px 8px #23CE6B80;
             border-radius: 100px;
             position: relative;
-  top: 0;
-  transition: top 0.3s ease-out;
+            top: 0;
+            transition: top 0.3s ease-out;
         }
 
         .hero-button:hover {
@@ -453,12 +579,12 @@
 
         .highlight-word::before {
             content: "Lorem Ipsum Sit";
-        font-weight: bolder;
-        font-family: 'Gilroy', bolder sans-serif;
-        padding: 5px 10px;
-        color: #08083D;
-        background: #ffffff;
-        animation: change-text 6s ease-out;
+            font-weight: bolder;
+            font-family: 'Gilroy', bolder sans-serif;
+            padding: 5px 10px;
+            color: #08083D;
+            background: #ffffff;
+            animation: change-text 6s ease-out;
         }
 
         .hero-content .hero-p {
@@ -482,8 +608,8 @@
             box-shadow: 0px 8px 8px #23CE6B80;
             border-radius: 100px;
             position: relative;
-  top: 0;
-  transition: top 0.3s ease-out;
+            top: 0;
+            transition: top 0.3s ease-out;
         }
 
         .hero-btn-icon img {
@@ -648,12 +774,12 @@
 
         .highlight-word::before {
             content: "Lorem Ipsum Sit";
-        font-weight: bolder;
-        font-family: 'Gilroy', bolder sans-serif;
-        padding: 5px 10px;
-        color: #08083D;
-        background: #ffffff;
-        animation: change-text 6s ease-out;
+            font-weight: bolder;
+            font-family: 'Gilroy', bolder sans-serif;
+            padding: 5px 10px;
+            color: #08083D;
+            background: #ffffff;
+            animation: change-text 6s ease-out;
         }
 
         .hero-content .hero-p {
@@ -677,8 +803,8 @@
             box-shadow: 0px 8px 8px #23CE6B80;
             border-radius: 100px;
             position: relative;
-  top: 0;
-  transition: top 0.3s ease-out;
+            top: 0;
+            transition: top 0.3s ease-out;
         }
 
         .hero-btn-icon img {
@@ -719,8 +845,11 @@
     <!-- Navbar Start -->
     <section id="hero">
         <div class="navbar">
-            <span class="menu">
-                <img width="38" height="25" src="assets/icons/menu-hamburger-svgrepo-com.svg" alt="nav-icon">
+            <span (click)="toggleNav(!toggle)" style="height : 25px" class="menu">
+                <img [ngClass]="toggle === true ? 'hide-icon' : 'show-icon'" width="38" height="25"
+                    src="assets/icons/menu-hamburger-svgrepo-com.svg" alt="nav-icon">
+                <img [ngClass]="toggle === false ? 'hide-cross-icon' : 'show-cross-icon'" width="38"
+                    src="assets/icons/cross.png" alt="">
             </span>
             <span class="logo">YOUR LOGO</span>
             <div class="right-side">
@@ -731,6 +860,12 @@
                 </div>
                 <button class="contact-btn">Contact</button>
             </div>
+        </div>
+        <div (click)="toggleNav(!toggle)" [ngClass]="toggle === true  ? 'showNav' : 'hideNav'" class="menu-option">
+            <button class="menu-button">How it works</button>
+            <button class="menu-button">Franchise list</button>
+            <button class="menu-button">Franchising guide</button>
+            <button class="contact-btn">Contact</button>
         </div>
         <div class="hero">
             <div class="hero-content">

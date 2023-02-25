@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class SeventhCtaComponent {
 
+  toggle: boolean = false;
+
+  toggleModal(selectNum: boolean){
+    this.toggle = selectNum;
+  }
+
 }
