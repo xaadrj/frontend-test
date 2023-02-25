@@ -2,20 +2,19 @@
 <app-first-cta></app-first-cta>
 <app-second-cta></app-second-cta>
 <div class="slider-main">
-<ngx-slick-carousel class="carousel" 
-  #slickModal="slick-carousel" 
-  [config]="slideConfig" 
-  (init)="slickInit($event)"
-  (breakpoint)="breakpoint($event)"
-  (afterChange)="afterChange($event)"
-  (beforeChange)="beforeChange($event)">
-<div ngxSlickItem *ngFor="let slide of slides" class="slide">
-<img src="{{ slide.img[0] }}" alt="" width="100% ">
-<p class="slick-paragraph">{{ slide.img[1] }}</p>
-</div>
-</ngx-slick-carousel>
+  <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig" (init)="slickInit($event)"
+    (breakpoint)="breakpoint($event)" (afterChange)="afterChange($event)" (beforeChange)="beforeChange($event)">
+    <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+      <img src="{{ slide.img[0] }}" alt="" width="100% ">
+      <p class="slick-paragraph">{{ slide.img[1] }}</p>
+    </div>
+  </ngx-slick-carousel>
 </div>
 <app-third-cta></app-third-cta>
 <app-fourth-cta></app-fourth-cta>
 <app-fifth-cta></app-fifth-cta>
 <app-sixth-cta></app-sixth-cta>
+<app-seventh-cta></app-seventh-cta>
+<app-eigth-cta></app-eigth-cta>
+<app-nineth-cta></app-nineth-cta>
+<app-footer></app-footer>

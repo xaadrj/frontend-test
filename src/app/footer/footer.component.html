@@ -1,0 +1,193 @@
+
+<style>
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+#footer {
+        background: #08083D ;
+            padding: 18px 110px;
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+
+    .footer-first {
+        display: none;
+    }
+
+    .footer-second {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        color: #ffffff;
+        gap: 12px;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Gilroy', lighter, sans-serif;
+        font-weight: lighter;
+        text-align: center;
+        font-size: 14px;
+        line-height: 19px;
+
+    }
+
+    .footer-p {
+        font-weight: 400;
+        line-height: 19px;
+    }
+
+    .footer-lg {
+        display: none;
+    }
+
+    .footer-sm {
+        display: block;
+    }
+
+
+
+
+@media (min-width: 1536px) { 
+    #footer {
+        background-image: url('/assets/images/footer.png');
+        background-color: none;
+            background-size: cover;
+            background-position: center;
+            padding: 38px 300px 43px;
+            flex-direction: column;
+            display: flex;
+            justify-content: end;
+            align-items: end;
+    }
+
+    .footer-first {
+        display: flex;
+        align-items: start;
+        justify-content: end;
+        color: #FFFFFF;
+        flex-direction: row;
+        gap : 163px;
+    }
+
+    .get-in-touch {
+        display: flex;
+        text-align: right;
+        align-items: end;
+        justify-content: start;
+        flex-direction: column;
+       
+    }
+
+    .get-in-touch-h {
+        
+        font-family: 'Gilroy', bolder, sans-serif;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 10px;
+    }
+    .get-in-touch-p {
+        font-family: 'Gilroy', lighter, sans-serif;
+        font-weight: lighter;
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 10px;
+
+    }
+
+    .get-in-touch-p-icon {
+        margin-left: 14px;
+    }
+
+    .follow-us-h {
+        font-family: 'Gilroy', bolder, sans-serif;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 20px;
+    }
+
+    .follow-us {
+        display: flex;
+        text-align: right;
+        align-items: end;
+        justify-content: start;
+        flex-direction: column;
+       
+    }
+    .follow-us-links {
+        display: flex;
+        align-items: end;
+        justify-content: start;
+        gap: 14px;
+    }
+
+    .footer-second {
+        display: flex;
+        flex-direction: row;
+        margin-top: 43px;
+        color: #ffffff;
+        text-align: right;
+        gap: 75px;
+        align-items: end;
+        justify-content: start;
+        font-family: 'Gilroy', lighter, sans-serif;
+        font-weight: lighter;
+        font-size: 16px;
+        line-height: 19px;
+
+    }
+
+    .footer-lg {
+        display: block;
+    }
+
+    .footer-sm {
+        display: none;
+    }
+
+    .footer-p {
+        font-weight: lighter;
+        line-height: 19px;
+    }
+}
+</style>
+
+<section id="footer">
+    <div class="footer-first">
+        <div class="get-in-touch">
+            <h1 class="get-in-touch-h">
+                Get in touch
+            </h1>
+            <p class="get-in-touch-p">
+                loremipsumpk@gmail.com <span class="get-in-touch-p-icon"><img src="assets/svgs/email.svg" alt=""></span>
+            </p>
+            <p class="get-in-touch-p">
+                Floor 3, One Expressway, Gulberg Greens, Islamabad <span class="get-in-touch-p-icon"><img src="assets/svgs/maps-and-flags.svg" alt=""></span>
+            </p>
+        </div>
+        <div class="follow-us">
+            <div class="follow-us-h">
+                Follow us
+            </div>
+            <div class="follow-us-links">
+                <a href="#"><img src="assets/icons/facebook.png" alt=""></a>
+                <a href="#"><img src="assets/icons/instagram.png" alt=""></a>
+                <a href="#"><img src="assets/icons/twitter.png" alt=""></a>
+                <a href="#"><img src="assets/icons/youtube.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-second">
+        <a class="footer-sm" href="#">Terms and conditions</a>
+        <a class="footer-sm" href="#">Privacy</a>
+        <a class="footer-lg" href="#">Contact</a>
+        <a class="footer-lg" href="#">Disclaimer</a>
+        <a class="footer-lg" href="#">Privacy policy</a>
+       <p class="footer-p">@2020 Lorem Ipsum, Pvt. Ltd. All rights reserved</p>
+    </div>
+</section>
