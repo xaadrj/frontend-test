@@ -18,6 +18,7 @@ import { SeventhCtaComponent } from './seventh-cta/seventh-cta.component';
 import { EigthCtaComponent } from './eigth-cta/eigth-cta.component';
 import { NinethCtaComponent } from './nineth-cta/nineth-cta.component';
 import { FooterComponent } from './footer/footer.component';
+import { MobileOnlyComponent } from './mobile-only/mobile-only.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { FooterComponent } from './footer/footer.component';
     SeventhCtaComponent,
     EigthCtaComponent,
     NinethCtaComponent,
-    FooterComponent  ],
+    FooterComponent,
+    MobileOnlyComponent  ],
   imports: [
     BrowserModule,
     AppRoutingModule,

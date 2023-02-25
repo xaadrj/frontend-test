@@ -1,0 +1,85 @@
+<style>
+  
+
+  #mobile-only {
+    padding: 33px 40px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    color: #08083D;
+  }
+
+  .mobile-only-h {
+    font-family: 'Gilroy', bolder, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .mobile-only-content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    gap: 29px;
+  }
+
+  .mobile-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 11.51px;
+  }
+
+  .mobile-p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .mobile-img {
+    width: 90px;
+height: 67px;
+display: flex;
+flex-shrink: 0;
+  }
+
+  @media (min-width: 790px) {  
+    #mobile-only {
+        display: none;
+    }
+  }
+
+
+</style>
+
+
+<section id="mobile-only">
+    <h1 class="mobile-only-h">
+        Lorem Ipsum Dolor
+    </h1>
+    <div class="mobile-only-content">
+        <div class="mobile-content"> 
+            <img class="mobile-img" src="assets/svgs/mobile-only-1.svg" alt="">
+            <p class="mobile-p">Why location is only <b>part</b> of the equation</p>
+        </div>
+        <div class="mobile-content"> 
+            <img class="mobile-img" src="assets/svgs/mobile-only-2.svg" alt="">
+            <p class="mobile-p">How you can expand and make a <b>fortune</b></p>
+        </div>
+    </div>
+    <div class="mobile-only-content">
+        <div class="mobile-content"> 
+            <img class="mobile-img" src="assets/svgs/mobile-only-3.svg" alt="">
+            <p class="mobile-p">Why business experience is <b>NOT</b> required</p>
+        </div>
+        <div class="mobile-content"> 
+            <img class="mobile-img" src="assets/svgs/mobile-only-4.svg" alt="">
+            <p class="mobile-p">Why <b>NOW</b> is the time to take action</p>
+        </div>
+    </div>
+</section>
